@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(251, 225, 168);
+    color: rgb(4, 105, 73);
+    margin: 2%;
+}
+
+h1,h3,p {
+    text-align: center;
+}
+.about-me {
+    text-align: center;
+}
+
+a {
+
+    text-decoration: none;
+    color: rgb(4, 105, 73);
+
+}
+
+
+.button {
+    border-color: rgb(4, 105, 73);
+    background-color: papayawhip;
+    padding: 25px;
+    text-align: center;
+    width: 400px;  
+    margin-left: auto;
+    margin-right: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+
+
+@media (max-width: 600px) {
+    .button {
+        
+        width: 200px;
+    }
+    
+  }
